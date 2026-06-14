@@ -1,0 +1,1 @@
+这是一个stm32f103c8t6的温湿度监控系统，后端采用python Flask，前端使用python web,以及mysql数据库存储数据。
