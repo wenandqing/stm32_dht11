@@ -1,0 +1,11 @@
+stm32_dht11\onenet.o: ..\Drivers\Onenet\onenet.c
+stm32_dht11\onenet.o: ../Drivers/STM32F103_HAL_Driver/driver_dht11.h
+stm32_dht11\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+stm32_dht11\onenet.o: ..\Drivers\Onenet\MqttKit.h
+stm32_dht11\onenet.o: ..\Drivers\Onenet\Common.h
+stm32_dht11\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32_dht11\onenet.o: ..\Drivers\Onenet\esp8266.h
+stm32_dht11\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32_dht11\onenet.o: ../Drivers/STM32F103_HAL_Driver/driver_timer.h
+stm32_dht11\onenet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32_dht11\onenet.o: ../Drivers/STM32F103_HAL_Driver/driver_oled.h
