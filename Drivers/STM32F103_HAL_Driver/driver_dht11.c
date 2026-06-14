@@ -27,7 +27,7 @@ double humidity=55;
  ***********************************************************************/
 static void DHT11_PinCfgAsInput(void)
 {
-    /* 对于STM32F407, 已经把DHT11的引脚配置为"open drain, pull-up" 
+    /* 对于STM32F1, 已经把DHT11的引脚配置为"open drain, pull-up" 
 	* 让它输出1就不会驱动这个引脚, 并且可以读入引脚状态
      */
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);

@@ -148,7 +148,7 @@ while (1)
 {
     uint32_t now = HAL_GetTick();
 
-    // ========== 1. 定时采集上传 ==========
+    // 定时采集上传 
     if (now - last_collect_time >= COLLECT_INTERVAL_MS)
     {
         last_collect_time = now;
